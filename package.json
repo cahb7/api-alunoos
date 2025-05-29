@@ -4,7 +4,8 @@
   "description": "api de alunos",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/cahb7/api-alunoos/issues"
   },
-  "homepage": "https://github.com/cahb7/api-alunoos#readme"
+  "homepage": "https://github.com/cahb7/api-alunoos#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
 }
